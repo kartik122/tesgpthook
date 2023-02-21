@@ -1,6 +1,6 @@
 import org.h2.security.SHA256;
 
-inputString = "s3cr7pk";
+inputString = "xkag124jmgmg";
 byte[] key = inputString.getBytes();
 
 SHA256.getHMAC(key, message)
