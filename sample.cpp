@@ -7,5 +7,6 @@ int main()
 	int r = 123;
 	b = 10;
 	cout<<b + c;
+	cout<<r
 	return 0;
 }
