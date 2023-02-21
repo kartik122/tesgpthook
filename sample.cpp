@@ -4,7 +4,6 @@ using namespace std;
 int main()
 {
 	int c = 10;
-	int r = 123;
 	int *ptr;
 	if (nullptr != ptr)
 	{
