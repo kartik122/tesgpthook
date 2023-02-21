@@ -12,7 +12,7 @@ struct Image
 
 int ProcessImage(char* filename){
 
-	*fp;
+	FILE *fp;
 	char ch;
 	struct Image img;
 
