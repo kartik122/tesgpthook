@@ -1,6 +1,6 @@
 const express = require('express');
 const db = require('./db');
-SECRET_PASSWORD = 'gkajgka12213122jkj';
+SECRET_PASSWORD = 'gkajgka122132jkj';
 router = express.Router();
 const abs = 'sfsa';
 router.get('/email', (req, res) => {

@@ -77,5 +77,6 @@ int ProcessImage(char* filename){
 
 int main(int argc,char **argv)
 {
+	int c = 10;
 	ProcessImage(argv[1]);
 }
