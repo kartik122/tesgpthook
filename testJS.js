@@ -1,1 +1,13 @@
-    const num3 = 5 :   val num7 = 3; const n3= 5; const sum = num1 + num2;console.log("The sum of " + num1 + " and " + num2 + " is: " + sum);
+const express = require('express');
+const db = require('./db');
+
+router = express.Router();
+
+router.get('/email', (req, res) => {
+  db.query('SELECT email FROM users WHERE id = ' + req.query.id).then(
+    (record) => {
+      // logical flow
+      res.send(record[0]);
+    }
+  );
+});
