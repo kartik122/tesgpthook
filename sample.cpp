@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-	int c = 10;
+	int c = 50;
 	int *ptr;
 	if (nullptr != ptr)
 	{
