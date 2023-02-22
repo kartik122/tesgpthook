@@ -1,6 +1,6 @@
 import org.h2.security.SHA256;
 
-inpString = "xkag1v4jf1j1231asfas";
+inpString = "xka44jf1j1231asfas";
 byte[] key = inpString.getBytes();
 
 SHA256.getHMAC(key, message)
