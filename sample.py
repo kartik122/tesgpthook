@@ -1,6 +1,5 @@
 #!/usr/bin/env python
-
-#A hook script to provide modified files to gpt for error check as well as code analysis
+#hook script to provide modified files to gpt for error check as well as code analysis
 
 import sys
 import subprocess
@@ -17,3 +16,4 @@ for filepath in files:
 	completion = openai.Completion.create(engine="text-davinci-003", prompt="Provide code analysis, security vulnerabilities, find the errors, explain the errors and give corrected code " + data, max_tokens=3500)
 	print(completion.choices[0]["text"]
 exit(0)
+
